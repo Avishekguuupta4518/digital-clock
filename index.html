@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container" aria-label="Digital Clock">
+      <!-- Time Display -->
+      <section class="clock clock1" aria-label="Current Time">
+        <div id="hrs">00</div>
+        <span class="colon">:</span>
+        <div id="mins">00</div>
+        <span class="colon">:</span>
+        <div id="sec">00</div>
+      </section>
+
+      <!-- Date and Info -->
+      <section class="clock clock2" aria-label="Date and Info">
+        <div class="date">
+          <time>
+            <span id="dat">01</span>
+            <span id="mon">January</span>
+          </time>
+        </div>
+        <div id="year">2025</div>
+        <div id="day">Sunday</div>
+        <div class="bottom">
+          <div id="am-pm">AM</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
